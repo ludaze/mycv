@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luhana</title>
+    <link rel="icon" sizes="114x114"
+      href="asset/images/pex3.jpeg" type="image/jpeg">
 </head>
 <body>
     <hr>
     <a href="index.html">Home</a> |
-    <a href="contact.html">contact</a>
+    <a href="contact.html">Contact</a> |
+    <a href="gallery.html">Gallery</a>
     <hr>
     <table cellspacing="10">
         <tr>
-            <td><img src="asset/images/sanity.jpg" alt= "a quote by arison"></td>
+            <td><img src="asset/images/front.jpeg" alt= "a quote by arison"></td>
             <td><h1>Luhana Daniel</h1>
                 <h3>Student at AAIT</h3>
                 <p>My name is Luhana Daniel ,i am an expert web developer and currenlty learning Sofware engineering at AAIT.I am passionate about this subject and hope to accomplish a lot during my years. </p>
@@ -115,38 +118,51 @@
         </tr>
     </table>
     <hr>
-    <h3>Contact us...</h3>
-    <form action="mailto:luhanad@gmail.com"enctype='UTF-8'> method=""
+    
+    
+    <form action="mailto:luhanad@gmail.com"enctype='UTF-8'> 
+         
+        <table cellspacing="10">
+            <tr><td><h3>Contact us...</h3></td></tr>
+            <tr>
+        <td><label for="fName">FirstName:</label></td>
+        <td><input type="text"    name= FirstName  id="fName"></td></tr>
+        <tr>
+        <br>
+        <td><label for="sName">SurName:</label></td>
+        <td><input type="text"   name=SurName   id="sName"></td></tr>
+        <tr>
+        <br>
+        <td><label for="email">Email:</label></td>
         
-        
-        <label for="fName">FirstName:</label>
-        <input type="text"    name= FirstName  id="fName">
+        <td><input type="text"   name=Email      id="email"></td></tr>
+        <tr>
         <br>
-        <label for="sName">SurName:</label>
-        <input type="text"   name=SurName   id="sName">
-        <br>
-        <label for="email">Email:</label>
-        <input type="text"   name=Email      id="email">
-        <br>
-          Where are you from?
-          <select name="country" id="">
+          <td>Where are you from?</td>
+          <td><select name="country" id="">
           <option value="Af">AFRICA</option>
           <option value="As">ASIA</option>
           <option value="Eu">ENROPE</option>
-        </select>
-
-
+        </select>   
+    </td>
+    </tr>
+    <tr>
         <br>
-        What do you want to say?
         <br>
-
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+       <td> What do you want to say?</td></tr>
         <br>
-        <input type="submit" value="submit">
+        <br>
+        <tr>
+        <td><textarea name="" id="" cols="30" rows="10"></textarea>
+        </td></tr>
+            <br>
+        <tr><td><input type="submit" value="submit"></td></tr>
+    </table>
     </form>
-    <a href="">Facebook</a>
-    <a href="">Twitter</a>
-    <a href="">Linked in</a>
+  
+    <a href="">Facebook</a> |
+    <a href="">Twitter</a>|
+    <a href="">Linked in</a> |
     <hr>
     <a href="index.html">Home</a> |
     <a href="contact.html">Contacts</a> |
