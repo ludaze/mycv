@@ -1,0 +1,48 @@
+input{
+    margin: 15px;
+
+}
+
+#head{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+#main{
+    
+    display: grid;
+    width: 200px;
+    height: 200px;
+    grid-template-columns: auto auto;
+    margin: 30px;
+     
+}
+.container {
+    min-height: 120vh;
+    display: flexbox;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: center;
+    background: #eee;
+    padding: 30px;
+    border-bottom: 3px solid lightslategray;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    
+  }
+  #second{
+      margin-left: 20px;
+  }
+  .h1 {
+    border-bottom: 3px solid lightslategray;
+    padding: 10px;
+  }
+  #sub{
+      height: 40px;
+      width: 100px;
+      align-content: center;
+      padding: 5px;
+      position: relative;
+  }

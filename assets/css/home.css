@@ -1,0 +1,27 @@
+#nav1{
+    border: 3px solid lightslategray;
+    padding: 10px;
+    border-top: 3px solid lightslategrey;
+    box-align: center;
+    
+}
+.qn{
+    margin: 30px;
+}
+img{
+    margin: 30px;
+}
+
+.h1 {
+    border: 3px solid lightslategray;
+    padding: 10px;
+  }
+  a{
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  #header1{
+      text-transform: uppercase;
+      align-content: center;
+      position: relative;
+  }

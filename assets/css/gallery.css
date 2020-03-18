@@ -1,0 +1,43 @@
+img{
+    width:30%;
+    
+    height: 300px;
+}
+.first{
+    float: left;
+    margin-left: 5%;
+}
+
+#nav1{
+    border: 3px solid lightslategray;
+    padding: 10px;
+    border-top: 3px solid lightslategrey;
+    box-align: center;
+    
+}
+.qn{
+    margin: 30px;
+}
+
+
+.h1 {
+    border: 3px solid lightslategray;
+    padding: 10px;
+  }
+  a{
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  #header1{
+      text-transform: uppercase;
+      
+      margin: 30px;
+      justify-content: center;
+    align-content: center;
+    display: flex;
+    size: 90px;
+  }
+  .sec{
+      float: right;
+      margin-right: 5%;
+  }
