@@ -15,7 +15,7 @@
     margin: 20px;
   }
   .block {
-    display: flex;
+    display: inline-flex;
     width: 200px;
     height: 200px;
     margin: 20px;
@@ -25,15 +25,27 @@
   }
 
 .first{
-    width: max-content;
-    height: 100px;
+  width: 100%;
+  height: 100%;
  }
+.second{
+  display: inline;
+  width: 100%;
+  height: 30%;
+}
 #one{
-  background-color: lightcoral;
+  
+  background-color: blue;
 }
 #two{
-  background-color:blue;
+  background-color:yellow;
 }
 #three{
-  background-color: coral;
+  background-color: red;
+}
+#five{
+  background-color: white;
+}
+#four{
+  background-color: green;
 }
