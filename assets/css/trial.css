@@ -3,7 +3,7 @@
     padding: 10px;
     border-top: 3px solid lightslategrey;
     box-align: center;
-    background-color: #808080;
+    background-color: #808080a2;
     font-size: 20px;
     
 }
@@ -14,22 +14,28 @@
     background-color: rgb(119, 0, 130);
 }
 #bn{
-    background-color: #808080;
+    background-color: #808080a2;
     box-shadow: 15px 15px 10px #808080;
 }
 #bn1{
-    background-color: #808080;
+    background-color: #808080a2;
     text-align: right;
     box-shadow: 15px 15px 10px #808080;
 }
+#fimg{
+    background-image: ;
+}
 img{
-    margin: 30px;
-    max-width: fit-content;
-    border: 2px solid black;
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    
+    
 }
 #first{
-    color: wheat;
-    background-color: rgb(119, 0, 130);
+    color: rgba(110, 29, 29, 0.692);
+    background-image:url("../images/pat3.jpg")  ;
     display: grid;
     padding:10px ;
     margin-top: 10px;
@@ -85,4 +91,9 @@ a:hover{
   }
   body{
     line-height: 2em
+  }
+  #im{
+      justify-content: center;
+      align-content: center;
+      text-align: center;
   }
