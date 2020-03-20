@@ -1,14 +1,29 @@
 #nav1{
-    border: 3px solid lightslategray;
+    border-bottom: 3px solid lightslategray;
     padding: 10px;
-    border-top: 3px solid lightslategrey;
+    text-align: right;
     box-align: center;
     background-color: #808080;
     font-size: 20px;
+    height: 70px;
+    line-height: 70px;
     
+}
+#nav1{
+    margin: 0 30px 0 0;
+}
+#nav1 a{
+    text-decoration: none;
+    color:white;
+    margin: 0 10px;
+    line-height: 70px;
+    clear: right;
 }
 .qn{
     margin: 30px;
+}
+#toggle{
+    display: none;
 }
 #qn{
     background-color: rgb(119, 0, 130);
@@ -35,6 +50,14 @@ img{
     margin-top: 10px;
     
 }
+label{
+    margin: 0 40px 0 0;
+    display: none;
+    width: 26px;
+    float: right;
+    line-height: 26px;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -85,4 +108,37 @@ a:hover{
   }
   body{
     line-height: 2em
+  }
+  @media only screen and (max-width:500px){
+      #nav1 ul{
+          float: right;
+          line-height: 50px;
+      }
+      #nav1 li{
+          display: inline;
+          list-style-type:none;
+      }
+      #nav1 a{
+          display: block;
+          border-bottom: 3px solid lightslategray;
+          margin: 0;
+
+      }
+     
+      div.example {
+        font-size: 80px;
+      }
+      #nav1{
+        border-bottom: 3px solid lightslategray;
+        padding: 10px;
+        text-align: right;
+        box-align: center;
+        background-color: #808080;
+        font-size: 20px;
+        height: 70px;
+        line-height: 70px;
+        width: 100%;
+        
+    }
+      
   }

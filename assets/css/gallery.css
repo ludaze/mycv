@@ -17,6 +17,12 @@ img{
     background-color: thistle;
     
 }
+.stack-top{
+
+    z-index: 9;
+
+    margin: 20px; 
+}
 .qn{
     margin: 30px;
 }
