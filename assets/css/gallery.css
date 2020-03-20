@@ -10,19 +10,32 @@ img{
 
 #nav1{
     border: 3px solid lightslategray;
-    padding: 10px;
+    padding: 25px;
     border-top: 3px solid lightslategrey;
     box-align: center;
+    color: white;
+    background-color: thistle;
     
 }
 .qn{
     margin: 30px;
 }
 
-
+#gal{
+    background-color: indigo;
+}
 .h1 {
     border: 3px solid lightslategray;
     padding: 10px;
+    
+  }
+  .bn {
+    
+    border: 3px solid lightslategray;
+    padding: 10px;
+    background-color: thistle;
+    text-decoration: none;
+    text-emphasis: none;
   }
   a{
       margin-left: 10px;
@@ -30,12 +43,10 @@ img{
   }
   #header1{
       text-transform: uppercase;
-      
-      margin: 30px;
-      justify-content: center;
-    align-content: center;
-    display: flex;
-    size: 90px;
+      text-align: center;
+      margin: 50px;
+      color: white;
+      font-size: 30px;
   }
   .sec{
       float: right;
