@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luhana D.Blog</title>
-    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/blog.css">
     <style> /*this is internal style */
     /* ele{
         key:value
     }*/
-    p{
-        color: blue;
-    }
+   
     </style>
 </head>
 <body>
@@ -22,39 +20,60 @@
      <a href="blog.html">Blog</a>    |
      <a href="myworks.html">My Works</a>
      </div>
-   
     <div id=content1>
         <section>
             <!--1 post-->
-            <p class="title">My first post</p>
+            <p class="title">The significance of relative sizing</p>
             <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ratione ducimus harum dolorum recusandae quaerat illum pariatur provident corporis eligendi necessitatibus delectus, sequi, facere velit odit nobis officia, exercitationem nulla?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quae! Ea cumque dolore, vitae cupiditate voluptas odio. Dolorem, sint atque quos, eaque explicabo velit quibusdam possimus placeat cumque earum consequuntur?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ratione, praesentium repellat accusantium aliquam iste facilis incidunt aliquid laboriosam excepturi minus tempore, deserunt enim aspernatur exercitationem? Nam sit veritatis quis.</p>
-            </article>
-            <p class="date">March 12,2020</p>
+                <p>It is critical for us to take into consideration which relative sizing
+                    technique we use during the styling of our elements for it to function 
+                    effectively.  Using em means we are making the style relative to its own
+                    element causing cascading through the nested elements. This makes
+                    it more and more complex to give specific sizing as the nesting increases.
+                    Thus it is much preffered using rem which helps u specify size
+                    according to a root element.The only downside is the percentages being
+                    quite difficult to use.
+                </p>
+                <p>
+                    Using rems we can build scaleable components.This means creating
+                    an interface which shrinks or grows according to the root font size.This
+                    is really convenient while using
+                    if we had instead used pixel values to style elements when the browser
+                    grows or shrinks in size this values would be fixed in turn not being able to
+                    adjust to the new size of the browser making it appear uneasy to the eyes
+                    and thus unappealing.</p>
+                 </article>
+            <p class="date">March 20,2020</p>
+        </section>
+
+       
+            <!--2 post-->
+            <p class="title">Default browser size and what altering it means</p>
+            <article>
+                <p>The default sizing our browser uses for relative sizing is the 16px font-size.If we set the default to 200px 
+                    , we will be setting the relative styling to a new default so that the browser uses that as
+                    a new referrence. While we use percentages the new default it would link
+                    to is the 200px as opposed to the usual 16px.</p>
+                 </article>
+            <p class="date">March 21,2020</p>
         </section>
 
         <section>
             <!--2 post-->
-            <p class="title">My first post</p>
+            <p class="title">The new changes in css3</p>
             <article>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ratione ducimus harum dolorum recusandae quaerat illum pariatur provident corporis eligendi necessitatibus delectus, sequi, facere velit odit nobis officia, exercitationem nulla?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quae! Ea cumque dolore, vitae cupiditate voluptas odio. Dolorem, sint atque quos, eaque explicabo velit quibusdam possimus placeat cumque earum consequuntur?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ratione, praesentium repellat accusantium aliquam iste facilis incidunt aliquid laboriosam excepturi minus tempore, deserunt enim aspernatur exercitationem? Nam sit veritatis quis.</p>
             </article>
-            <p class="date">March 13,2020</p>
+            <p class="date">March 21,2020</p>
         </section>
+
+        <section>
     </div>
     <p style="color:red">This is styling</p>
     <p>this is style 2</p>
     <p>this is style 3</p>
-    <div class="h1"><a href="">Facebook</a> |
-        <a href="">Twitter</a>|
-        <a href="">Linked in</a> |</div>
-    <div class="h1"><a href="index.html">Home</a> |
-        <a href="contact.html">Contacts</a> |
-        <a href="gallery.html">Gallery</a></div>
-    <br>   
+    
 </body>
 </html>

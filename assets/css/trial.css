@@ -14,11 +14,11 @@
     background-color: rgb(119, 0, 130);
 }
 #bn{
-    background-color: #808080a2;
+    background-color: #808080;
     box-shadow: 15px 15px 10px #808080;
 }
 #bn1{
-    background-color: #808080a2;
+    background-color: #808080;
     text-align: right;
     box-shadow: 15px 15px 10px #808080;
 }
@@ -33,6 +33,37 @@ img{
     
     
 }
+button {
+    flex: 1 auto;
+    margin: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+
+  section {
+    display: flex;
+    font-size: 20px;
+    font-family: helvetica,sans-serif;
+  }
+  article:nth-of-type(3) div:first-child {
+    flex:1 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+article {
+    flex-flow: row wrap;
+        flex: 1 200px;
+        
+      }
+      
+      article:nth-of-type(3) {
+        flex: 3 200px;
+        display: flex;
+        flex-flow: column;
+      }
 #first{
     color: rgba(110, 29, 29, 0.692);
     background-image:url("../images/pat3.jpg")  ;
