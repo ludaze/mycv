@@ -6,189 +6,90 @@
     <title>Luhana</title>
     <link rel="icon" sizes="114x114"
       href="asset/images/pex3.jpeg" type="image/jpeg">
-        <link rel="stylesheet" href="./assets/css/contact.css">
-        <link rel="stylesheet" href="./assets/css/home.css">
 </head>
 <body>
     
-    
-   <div class="h1"> 
-       <a href="index.html">Home</a> |
+    <hr>
+    <a href="index.html">Home</a> |
     <a href="contact.html">contact</a> |
-    <a href="gallery.html">Gallery</a> |
-    <a href="blog.html">Blog</a>    |
-    <a href="myworks.html">My Works</a>
-    </div>
-
-
-<div class="h1">
-    
-    <section>
-    <div id="first1">
-        <div><h1>Luhana Daniel</h1>
-            <h3>Student at AAIT</h3>
-            <p>My name is Luhana Daniel ,i am an expert web developer and currenlty learning Sofware engineering at AAIT.I am passionate about this subject and hope to accomplish a lot during my years. </p>
+    <a href="gallery.html">Gallery</a>
+    <hr>
+    <table cellspacing="10">
+        <br>
+        <td>Search</td>
+        <tr><td><input type="search" id="search" name="search"></td>
         
-          
-              <img id="img1" src="assets/images/cat.jpg" alt= "a quote by arison"></td>
-        </div>       
-                
-               
+        </tr>
+        <tr>
+            <td><h1>Luhana Daniel</h1>
+                <h3>Student at AAIT</h3>
+                <p>My name is Luhana Daniel ,i am an expert web developer and currenlty learning Sofware engineering at AAIT.I am passionate about this subject and hope to accomplish a lot during my years. </p>
+                </td>
+            <td><img src="asset/images/front.jpeg" alt= "a quote by arison"></td>
             
-        
-    </div>
-</section>
+        </tr>
+    </table>
+    
+    
+    <hr>
     
 
-    <div class="container">
+    
     <form action="mailto:luhanad@gmail.com"enctype='UTF-8'> 
         
-        
+        <table cellspacing="10">
             
-            <div id="head">
-                <caption><h2>Contact us...</h2></caption> </div>
-        <div class="form">   
-      <div id="main">    
-       <td rowspan="10"><div class="mapouter">
-           <div class="gmap_canvas">
-               <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" >
-            </iframe>
-            <a href="https://periodic-table-of-elements.net">periodic-table-of-elements.net</a>
-        </div>
-        <style>.mapouter{text-align:right;height:300px;width:600px;}.gmap_canvas {background:none!important;height:300px;width:400px;}</style></div>
-       <div id="second">
-        <div class="top">
-             <div class="inner">
-                <div class="label">Name</div>
-                <input type="text" placeholder="name">
-            </div>
-            <div class="inner">
-                <div class="label">E-mail</div>
-                <input type="text" placeholder="name@gmail.com">
-            </div>
-            <div class="inner">
-                <div class="label">Phone</div>
-                <input type="text" placeholder="251-999-999-999">
-            </div>
-         </div> 
-         <div class="middle">
-            <div class="inner">
-                <div class="label">Subject</div>
-                <input type="text" placeholder="subject">
-            </div>
-         </div>
-         <div class="bottom">
-            <div class="inner">
-                <div class="label">Message</div>
-                <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
-            </div>
-         </div>
-         <div class="btn">Send Form</div>
+            <caption><h2>Contact us...</h2></caption> 
+            
+            <tr>
+       <td rowspan="10"><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://periodic-table-of-elements.net">periodic-table-of-elements.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></td></tr>
+        <td><label for="fName">FirstName:</label></td>
+        <td><input type="text"    name= FirstName  id="fName"></td></tr>  
+        <tr>
+        <br>
+        <td><label for="sName">SurName:</label></td>
+        <td><input type="text"   name=SurName   id="sName"></td></tr>
+        <tr>
+        <br>
+        <td><label for="email">Email:</label></td>
         
+        <td><input type="text"   name=Email      id="email"></td></tr>
+        <tr>
         <br>
-        
-       <div> <label for="sName">SurName:</label>
-        <input type="text"   name=SurName   id="sName">
-        </div>
-        <br>
-        <div><label for="email">Email:</label>
-        <input type="text"   name=Email      id="email">
-            </div>
-        <br>
-         <div> Where are you from?
-            <select name="country" id="">
-            <option value="Af">AFRICA</option>
-            <option value="As">ASIA</option>
-            <option value="Eu">ENROPE</option>
-          </select>   </div>
-    
-    
-    
+          <td>Where are you from?</td>
+          <td><select name="country" id="">
+          <option value="Af">AFRICA</option>
+          <option value="As">ASIA</option>
+          <option value="Eu">ENROPE</option>
+        </select>   
+    </td>
+    </tr>
+    <tr>
         <br>
         <br>
-       <div> What do you want to say?</div>
+       <td> What do you want to say?</td></tr>
         <br>
         <br>
-        
-       <div> <textarea name="" id="" cols="30" rows="10"></textarea>
-        <input id="sub" type="submit" value="Send Message">
-    </div>
-    </div>
-    </div>
-    
+        <tr>
+        <td><textarea name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send Message">
+        </td>
          <br>
-        
+        <tr></tr>
 
     </table>
     </form>
-</div>
-<div class="h1"><a href="">Facebook</a> |
-    <a href="">Twitter</a>|
-    <a href="">Linked in</a> |</div>
-<div class="h1"><a href="index.html">Home</a> |
-    <a href="contact.html">Contacts</a> |
-    <a href="gallery.html">Gallery</a></div>
+<a href="">Facebook</a> |
+<a href="">Twitter</a>|
+<a href="">Linked in</a> |
+<hr>
 <br>
+<a href="index.html">Home</a> |
+<a href="contact.html">Contacts</a> |
+<a href="gallery.html">Gallery</a>
 
-
-</div>
+<hr>
 
 
 </body>
 </html>
-
-input{
-    margin: 15px;
-
-}
-
-#main{
-    
-    display: grid;
-    width: 200px;
-    height: 200px;
-    grid-template-columns: auto auto;
-    margin: 30px;
-     
-}
-.container {
-    min-height: 120vh;
-  
-    justify-content: center;
-    background: #eee;
-    padding: 30px;
-    border-bottom: 3px solid lightslategray;
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    line-height: 10px;
-    
-  }
-  #second{
-      margin-left: 20px;
-  }
-  .h1 {
-    border-bottom: 3px solid lightslategray;
-    padding: 10px;
-  }
-  #sub{
-      height: 40px;
-      width: 100px;
-      align-content: center;
-      padding: 5px;
-      
-  }
-  #img1{
-      float: left;
-  }
-
-  <div id="main">    
-    <td rowspan="10"><div class="mapouter">
-        <div class="gmap_canvas">
-            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" >
-         </iframe>
-         <a href="https://periodic-table-of-elements.net">periodic-table-of-elements.net</a>
-     </div>
-     <style>.mapouter{text-align:right;height:300px;width:600px;}.gmap_canvas {background:none!important;height:300px;width:400px;}</style></div>
-    <div id="second">

@@ -19,9 +19,10 @@
     text-align: left;
     display: grid;
     width: 1000px;
-    height:800px;
+    height:1000px;
     grid-template-columns: auto auto auto;
     margin: 15px;
+
 }
 #nav1 a{
     text-decoration: none;
@@ -65,17 +66,26 @@
     box-shadow: 15px 15px 10px #808080;
     
 }
+h1{
+    font-family: cursive;
+    margin-left: 20px;
+}
+#this{
+    background-color: white;
+    height: 200px;
+    margin-left: 20px;
+}
 img{
     margin: 30px;
     max-width: fit-content;
     border: 2px solid black;
 }
 #first{
-    color: wheat;
-    background-color: rgb(119, 0, 130);
+    color: black;
+    background-image:url("../images/pat3.jpg")  ;
     display: grid;
     padding:10px ;
-    margin-top: 10px;
+    margin-top: 20px;
     
 }
 label{
@@ -86,15 +96,26 @@ label{
     line-height: 26px;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+
+#spi{
+    text-align: right;
+    background-color: #808080;
+    text-align: right;
+    box-shadow: 10px 10px 10px #808080;
+    margin-left: 300px;
+    padding: 0 15px 0 15px;
+}
+#the:first-letter {
+    color: lime;
+    font-size: 100px;
 
 }
-a:hover{
-    font-size: 25px;
-    color: indigo;
+#empty{
+    height: 500px;
+    width: fit-content;
+    background-image:url("../images/pat3.jpg")  ;
 }
+
 #second{
     color: wheat;
     background-color: #808080;
@@ -124,11 +145,10 @@ a:hover{
    
    background-color: darkslategray;
     font-size: 20px;
+    font-family: cursive;
+    margin-left: 20px;
   }
-  a{
-      margin-left: 10px;
-      margin-right: 10px;
-  }
+  
   .twonav{
     grid-template-columns: auto auto ;
     display: grid;
@@ -145,6 +165,19 @@ a:hover{
   body{
     line-height: 2em
   }
+  a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a:hover{
+  font-size: 25px;
+  color: indigo;
+}
+a{
+  text-decoration: none;
+  color: white;
+
+}
   @media only screen and (max-width:500px){
       #nav1 ul{
           float: right;

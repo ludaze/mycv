@@ -1,8 +1,8 @@
 body{
-    background-color: indigo;
+    background-image:url("../images/pat3.jpg")  ;
     border: solid 10px lightslategray;
     margin: 10 px ;
-    color: white;
+    color:black;
 }
 
 header{
@@ -13,25 +13,34 @@ header{
     color: white;
 
 }
+.word{
+    text-transform: uppercase;
+    font-size:  25px;
+    color: teal;
+    font-family: cursive;
+}
 section{
-    margin-top: 75px;
+    
     padding: 5px 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    
+    margin: 75px 30px 0 30px;
+    background-color: white;
 }
 article{
     font-size: 20px;
     line-height: 2px;
     line-height: 25px;
     text-align: justify;
-    color: white;
+    
     margin: 5px auto 5px;
     
 }
 .title{
-    font-size: 23px;
+    font-size: 30px;
     font-weight: bold;
-    color: white;
+   
+    font-family: fantasy;
 }
 nav>ul>li>a{
     text-decoration: none;

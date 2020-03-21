@@ -28,7 +28,7 @@ img{
 }
 
 #gal{
-    background-color: indigo;
+    background-image:url("../images/pat3.jpg")  ;
 }
 .h1 {
     border: 3px solid lightslategray;
@@ -51,8 +51,22 @@ img{
       text-transform: uppercase;
       text-align: center;
       margin: 50px;
-      color: white;
+      color:indigo;
       font-size: 30px;
+      font-family: cursive;
+      font-weight: bold;
+      background-color: white;
+      width: max-content;
+      align-content: center;
+      justify-content: center;
+      margin-left: 500px;
+  }
+  #l{
+      border-top: 3px solid black;
+      border-left: 3px solid black;
+      border-right: 3px solid black;
+      margin: 0;
+
   }
   .sec{
       float: right;
